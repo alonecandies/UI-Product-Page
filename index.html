@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://ui-avatars.com/api/?background=03d6f3&color=fff&name=A&bold=true&rounded=true&format=svg"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.4/themes/purple/pace-theme-loading-bar.min.css"
+      integrity="sha512-MLJQ+XFPCdVHgalOjIBejExYyoHVem8Zf0FBicIQey3Yx1FY2TdqqC5upjSLGyTJpsH+6CfBzO6L/acD2kb/Pw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Quynh Anh Portfolio</title>
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header id="home">
+      <div class="container sticky-nav">
+        <div class="row">
+          <a href="" class="logo col-xl-3 col-lg-4 col-md-5 col-sm-6 col-6">
+            <span>A</span> AmiaLand
+          </a>
+          <nav class="navigation-bar col-xl-9 col-lg-8 col-md-7 col-sm-6 col-6">
+            <a
+              href="javascript:void(0);"
+              class="navigation-bar__icon"
+              onclick="navbarToggle()"
+            >
+              <i class="fa fa-bars"></i>
+            </a>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#product">Product</a></li>
+              <li><a href="#client">Client</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li class="navigation-contact">
+                <a href="#contact-me">Contact Me</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <nav class="fluid-container sticky-resp">
+        <ul class="navigation-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#product">Product</a></li>
+          <li><a href="#client">Client</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#contact-me">Contact Me</a></li>
+        </ul>
+      </nav>
+      <section class="banner">
+        <div class="container">
+          <h1 class="banner-title">
+            <span data-aos="zoom-in" data-aos-duration="1500">AmiaLand</span> -
+            Find the Best Solution in Seconds
+          </h1>
+          <p class="banner-description">
+            If debugging is the process of removing software bugs.
+          </p>
+          <div class="banner-button">
+            <div data-aos="zoom-in"><button>get started</button></div>
+            <div data-aos="zoom-in"><button>try for free</button></div>
+          </div>
+          <div data-aos="fade-up" class="banner-hero">
+            <img src="./assets/images/hero.jpg" alt="" />
+          </div>
+        </div>
+      </section>
+    </header>
+    <!-- ------ -->
+    <!-- Product -->
+    <section class="product" id="product">
+      <div class="container">
+        <h1 class="product-title">
+          <span data-aos="zoom-in" data-aos-duration="1500">AmiaLand</span> was
+          Built Specifically for You
+        </h1>
+        <div class="row product-work">
+          <div data-aos="flip-left" class="col-md-4 col-12">
+            <div>
+              <i class="fa fa-users" aria-hidden="true"></i>
+              <h3>Management</h3>
+              <p>
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <a href=""
+                >Learn more
+                <i class="fa fa-angle-double-right" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-delay="300"
+            class="col-md-4 col-12"
+          >
+            <div>
+              <i class="fa fa-superpowers" aria-hidden="true"></i>
+              <h3>Customer Support</h3>
+              <p>
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <a href=""
+                >Learn more
+                <i class="fa fa-angle-double-right" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-delay="600"
+            class="col-md-4 col-12"
+          >
+            <div>
+              <i class="fa fa-window-maximize" aria-hidden="true"></i>
+              <h3>Management</h3>
+              <p>
+                Slate helps you see how many more days you need to work to reach
+                your financial goal for the month and year.
+              </p>
+              <a href=""
+                >Learn more
+                <i class="fa fa-angle-double-right" aria-hidden="true"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------- -->
+    <!-- Client -->
+    <section class="client" id="client">
+      <div class="container">
+        <h1 class="client-title">Happy Clients About Us</h1>
+        <div class="row client-list">
+          <div data-aos="flip-left" class="col-md-4 col-12">
+            <div class="client-card">
+              <div class="client-avatar">
+                <img src="./assets/images/JB.jpg" alt="" />
+              </div>
+              <div class="client-detail">
+                <h5>James Bond</h5>
+                <p>
+                  “You made it so simple. My new site is so much faster and
+                  easier to work with than my old site.”
+                </p>
+                <a href=""
+                  >Learn More
+                  <i class="fa fa-angle-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-delay="300"
+            class="col-md-4 col-12"
+          >
+            <div class="client-card">
+              <div class="client-avatar">
+                <img src="./assets/images/EW.jpg" alt="" />
+              </div>
+              <div class="client-detail">
+                <h5>Emily Wang</h5>
+                <p>
+                  “Wow. I just updated my site and it was SO SIMPLE. I am blown
+                  away. You guys truly kick ass.”
+                </p>
+                <a href=""
+                  >Learn More
+                  <i class="fa fa-angle-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-delay="600"
+            class="col-md-4 col-12"
+          >
+            <div class="client-card">
+              <div class="client-avatar">
+                <img src="./assets/images/CT.jpg" alt="" />
+              </div>
+              <div class="client-detail">
+                <h5>Chloe Ting</h5>
+                <p>
+                  “It’s really great when I realize the way how easy your
+                  websites are to update and manage.”
+                </p>
+                <a href=""
+                  >Learn More
+                  <i class="fa fa-angle-right" aria-hidden="true"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------ -->
+    <!-- Pricing -->
+    <section class="pricing" id="pricing">
+      <div class="container">
+        <h1 class="pricing-title">Simple Pricing for Your Team</h1>
+        <p class="pricing-description">
+          Slate helps you see how many more days you need
+        </p>
+        <div class="row">
+          <div data-aos="flip-left" class="col-md-4 col-12">
+            <div class="pricing-card">
+              <h5>Education</h5>
+              <p>For students</p>
+              <div class="pricing-image">
+                <img src="./assets/images/p1.png" alt="" />
+              </div>
+              <div class="pricing-price">
+                <span>0</span>
+                <div>
+                  <span>$</span>
+                  <p>Per/ month</p>
+                </div>
+              </div>
+              <span>Only 2 Operators</span>
+              <span>Abandoned Cart</span>
+              <span>Facebook Ads</span>
+              <span class="pricing-blur">Order Notifications</span>
+              <span class="pricing-blur">Landing Pages</span>
+              <a href="">Order Now</a>
+            </div>
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-delay="300"
+            class="col-md-4 col-12"
+          >
+            <div class="pricing-card">
+              <h5>Professional</h5>
+              <p>For experts</p>
+              <div class="pricing-image">
+                <img src="./assets/images/p2.jpg" alt="" />
+              </div>
+              <div class="pricing-price">
+                <span>10</span>
+                <div>
+                  <span>$</span>
+                  <p>Per/ month</p>
+                </div>
+              </div>
+              <span>5 Operators</span>
+              <span>Abandoned Cart</span>
+              <span>Facebook & Instagram Ads</span>
+              <span>Order Notifications</span>
+              <span class="pricing-blur">Landing Pages</span>
+              <a href="">Order Now</a>
+            </div>
+          </div>
+          <div
+            data-aos="flip-left"
+            data-aos-delay="600"
+            class="col-md-4 col-12"
+          >
+            <div class="pricing-card">
+              <h5>Business</h5>
+              <p>For enterprises</p>
+              <div class="pricing-image">
+                <img src="./assets/images/p3.png" alt="" />
+              </div>
+              <div class="pricing-price">
+                <span>99</span>
+                <div>
+                  <span>$</span>
+                  <p>Per/ month</p>
+                </div>
+              </div>
+              <span>50 Operators</span>
+              <span>Abandoned Cart</span>
+              <span>All Ads</span>
+              <span>Order Notifications</span>
+              <span>Landing Pages</span>
+              <a href="">Order Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- ------- -->
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="row footer-menu">
+          <div class="col-xl-2 col-md-3 col-sm-6 col-xs-12 col-12">
+            <a href="" class="logo"> <span>A</span> AmiaLand </a>
+            <div>
+              <a href=""><img src="./assets/images/AppGallery.jpg" alt="" /></a>
+            </div>
+            <div>
+              <a href=""><img src="./assets/images/WinStore.jpg" alt="" /></a>
+            </div>
+            <div>
+              <a href=""><img src="./assets/images/GooglePlay.jpg" alt="" /></a>
+            </div>
+            <div>
+              <a href=""><img src="./assets/images/AppStore.jpg" alt="" /></a>
+            </div>
+          </div>
+          <ul class="col-xl-2 col-md-3 col-sm-6 col-xs-12 col-12">
+            <h5>Product</h5>
+            <li><a href=""> Landing Page</a></li>
+            <li><a href=""> Popup Builder</a></li>
+            <li><a href=""> Web Design</a></li>
+            <li><a href=""> Content</a></li>
+            <li><a href=""> Integrations</a></li>
+          </ul>
+          <ul class="col-xl-2 col-md-3 col-sm-6 col-xs-12 col-12">
+            <h5>Use Cases</h5>
+            <li><a href=""> Web Designers</a></li>
+            <li><a href=""> Marketers</a></li>
+            <li><a href=""> Small Business</a></li>
+            <li><a href=""> Website Builder</a></li>
+          </ul>
+          <ul class="col-xl-2 col-md-3 col-sm-6 col-xs-12 col-12">
+            <h5>Company</h5>
+            <li><a href=""> About Us</a></li>
+            <li><a href=""> Careers</a></li>
+            <li><a href=""> FAQs</a></li>
+            <li><a href=""> Teams</a></li>
+            <li><a href=""> Contact Us</a></li>
+          </ul>
+          <div class="col-xl-4 col-12 footer-subscribe">
+            <h5>Subscribe</h5>
+            <p>
+              Subscribe to stay tuned for new web design and latest updates.
+              Let's do it!
+            </p>
+            <div>
+              <input type="text" placeholder="Enter your email Address" />
+              <button>Subscribe</button>
+            </div>
+            <a class="footer-address" href=""
+              ><i class="fa fa-map-marker" aria-hidden="true"></i> Nguyen Huy
+              Tuong Street</a
+            >
+            <a class="footer-mail" href=""
+              ><i class="fa fa-envelope-o" aria-hidden="true"></i>
+              amia103@gmail.com</a
+            >
+          </div>
+        </div>
+        <div class="row footer-cpr">
+          <div class="col-lg-6 col-12">
+            Copyright 2021 <span>Quynh Anh Nguyen</span> | All Rights Reserved
+          </div>
+          <ul class="col-lg-6 col-12">
+            <li>
+              <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+            </li>
+            <li>
+              <a href=""
+                ><i class="fa fa-youtube-play" aria-hidden="true"></i
+              ></a>
+            </li>
+            <li>
+              <a href=""><i class="fa fa-telegram" aria-hidden="true"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <!-- ------ -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script
+      data-pace-options='{ "ajax": false,"document":true,"eventLag":false }'
+      src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.2.3/pace.min.js"
+      integrity="sha512-TJX3dl0dqF2pUpKKtV60kECO4y8blw4ZPIZNEkfUnFepRKfx4nfiI37IqFa1TEsRQJkPGTIK4BBJ2k/lmsK7HA=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/js/navToggle.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/stickyNav.js"></script>
+  </body>
+</html>
