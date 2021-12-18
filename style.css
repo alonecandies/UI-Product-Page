@@ -1061,7 +1061,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  margin:0;
+  margin: 0;
 }
 
 .footer-cpr ul li {
@@ -1075,9 +1075,9 @@ footer {
   justify-content: center;
 }
 
-.footer-cpr ul li:hover{
+.footer-cpr ul li:hover {
   background: var(--primary-color);
-  transition: all .3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .footer-cpr ul li a {
@@ -1092,8 +1092,8 @@ footer {
   font-size: 12px;
 }
 
-@media screen and (max-width:1200px){
-  .footer-subscribe h5{
+@media screen and (max-width: 1200px) {
+  .footer-subscribe h5 {
     margin-top: 20px;
   }
 
@@ -1101,44 +1101,48 @@ footer {
     justify-content: flex-start;
   }
 
-  .footer-subscribe input{
+  .footer-subscribe input {
     width: 40%;
   }
 }
 
-@media screen and (max-width:992px){
-  .footer-cpr div{
+@media screen and (max-width: 992px) {
+  .footer-cpr div {
     text-align: center;
   }
 
-  .footer-cpr ul{
+  .footer-cpr ul {
     margin-top: 20px;
     justify-content: center;
   }
 }
 
-@media screen and (max-width:768px){
-  .footer-subscribe input{
+@media screen and (max-width: 768px) {
+  .footer-subscribe input {
     width: 60%;
   }
 }
 
-@media screen and (max-width:576px){
-  footer{
+@media screen and (max-width: 576px) {
+  footer {
     padding-top: 30px;
   }
 
-  footer h5{
+  footer h5 {
     text-align: center;
   }
 
-  .footer-menu .logo{
+  .footer-menu .logo {
     display: flex;
     align-items: center;
     justify-content: center;
   }
 
-  .footer-menu ul, .footer-menu img, .footer-subscribe p,.footer-subscribe div, .footer-subscribe a{
+  .footer-menu ul,
+  .footer-menu img,
+  .footer-subscribe p,
+  .footer-subscribe div,
+  .footer-subscribe a {
     margin-left: 10px;
   }
 }
